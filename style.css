@@ -3,6 +3,17 @@ body {
     color: black;
 
     font-family: Roboto, sans-serif;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
@@ -42,9 +53,20 @@ header {
     background-color: #1f2937;
 }
 
+section#top {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+section#random-info .info {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 section#quote {
     background-color: #e5e7eb;
 }
+
 section#quote p.quote {
     font-style: italic;
     font-weight: 200;
@@ -52,5 +74,13 @@ section#quote p.quote {
 }
 
 section#call-to-action {
-    background-color: #3882f6
+    background-color: #3882f6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#call-to-action .accent {
+    display: flex;
+    flex-flow: row wrap;
 }
