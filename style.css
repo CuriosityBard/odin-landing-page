@@ -53,6 +53,13 @@ h3 {
     text-align: center;
     color: #1f2937;
 }
+h4 {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+}
 
 button {
     background-color: #3882f6;
@@ -121,18 +128,21 @@ section#top {
 section#random-info .info {
     display: flex;
     flex-flow: row wrap;
-    gap: 20px;
+    gap: 42px;
+    justify-content: center;
 
     margin: 0 auto;
-    width: fit-content;
+    width: 95%;
     padding: 2em 0 8em 0;
 }
 .info figure {
-    width: 200px;
+    width: 210px;
+
+    margin: 0;
 }
 div.small-placeholder {
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     
     border: 2px solid #3882f6;
     border-radius: 10%;
@@ -152,7 +162,7 @@ div.big-placeholder {
 section#quote {
     background-color: #e5e7eb;
 
-    padding: 8em 20%;
+    padding: 8em 24%;
 }
 
 section#quote p.quote {
@@ -184,7 +194,14 @@ section#call-to-action .accent {
 
     border-radius: 5px;
 
-    margin: 100px;
+    margin: 100px 0;
     padding: 2em 5em;
     width: 100%;
+}
+section#call-to-action p {
+    margin: 0;
+}
+
+footer p {
+    margin: 2em 0;
 }
